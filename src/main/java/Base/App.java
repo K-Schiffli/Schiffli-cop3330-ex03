@@ -18,15 +18,13 @@ public class App {
     public static String getQuote()
     {
         System.out.println( "What is the quote?" );
-        String quote = in.nextLine();
-        return quote;
+        return in.nextLine();
     }
 
     public static String getPerson()
     {
         System.out.println( "Who said it?" );
-        String person = in.nextLine();
-        return person;
+        return in.nextLine();
     }
 
     public static String concatQuote(String person, String quote)
