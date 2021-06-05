@@ -34,6 +34,6 @@ public class App {
 
     public static void printQuote(String output)
     {
-        System.out.print( output );
+        System.out.print(output);
     }
 }
